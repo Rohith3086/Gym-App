@@ -1,0 +1,54 @@
+/* General container */
+.weconnect-container {
+    background: #121212;
+    color: #00ffcc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.7), 0 0 30px rgba(0, 255, 204, 0.5);
+    animation: neonGlow 1.5s infinite alternate;
+  }
+  
+  /* Neon glow animation */
+  @keyframes neonGlow {
+    0% {
+      box-shadow: 0 0 20px rgba(0, 255, 204, 0.7), 0 0 30px rgba(0, 255, 204, 0.5);
+    }
+    100% {
+      box-shadow: 0 0 25px rgba(0, 255, 204, 1), 0 0 40px rgba(0, 255, 204, 0.8);
+    }
+  }
+  
+  /* Device info text */
+  .device-info p {
+    font-size: 1.2rem;
+    color: #ff66cc;
+    text-shadow: 0 0 10px rgba(255, 102, 204, 0.7), 0 0 20px rgba(255, 102, 204, 0.5);
+  }
+  
+  /* Button styling with neon effect */
+  .connect-button {
+    background: linear-gradient(45deg, #ff00ff, #00ffcc);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 0 10px #ff00ff, 0 0 15px #00ffcc;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .connect-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ff00ff, 0 0 30px #00ffcc;
+  }
+  
+  /* Glowing hover effect for button */
+  .connect-button:active {
+    transform: scale(1);
+    box-shadow: 0 0 40px #ff00ff, 0 0 50px #00ffcc;
+  }
+  

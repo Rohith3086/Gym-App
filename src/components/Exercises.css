@@ -1,0 +1,21 @@
+.muscle-group-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #dddddd00;
+    border-radius: 8px;
+    background-color: #0674222e;
+  }
+  
+  .muscle-title {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds space between the image and title */
+  }
+  
+  .muscle-image {
+    width: 50px;  /* Adjust size as needed */
+    height: 50px;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,172 @@
+/* 🎨 General Container Styling */
+.page-container {
+    font-family: "Arial", sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    background: #0a0a0a; /* Dark background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.4);
+    color: #0ff; /* Neon cyan text */
+  }
+  
+  /* 🔥 Headings */
+  h1 {
+    color: #0ff;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  }
+  
+  h2 {
+    color: #ff00ff;
+    font-size: 1.8rem;
+    text-shadow: 0 0 10px #ff00ff;
+  }
+  
+  h3 {
+    color: #ff4500;
+    font-size: 1.6rem;
+    text-shadow: 0 0 8px #ff4500;
+  }
+  
+  /* ✨ Paragraph Styling */
+  p {
+    font-size: 1.2rem;
+    color: #00ff99;
+    text-align: center;
+    text-shadow: 0 0 10px #00ff99;
+  }
+  
+  /* 🎛 Dropdown and Form Controls */
+  .split-selection {
+    background: #141414;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5);
+  }
+  
+  /* Input and Select */
+  select, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #0ff;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: transparent;
+    color: #0ff;
+    transition: 0.3s;
+  }
+  
+  /* Glowing Hover Effects */
+  select:hover, input[type="text"]:hover {
+    border-color: #ff00ff;
+    box-shadow: 0px 0px 10px rgba(255, 0, 255, 0.8);
+  }
+  
+  /* Custom Input */
+  .custom-workout input[type="text"] {
+    background: #1a1a1a;
+    color: #00ff99;
+    font-size: 1.1rem;
+  }
+  
+  .custom-workout input[type="text"]:focus {
+    outline: none;
+    border-color: #ff4500;
+    box-shadow: 0px 0px 10px rgba(255, 69, 0, 0.8);
+  }
+  
+  /* 💪 Workout Table Styling */
+  .workout-table {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #1a1a1a;
+    box-shadow: 0px 0px 12px rgba(0, 255, 255, 0.5);
+  }
+  
+  /* Table Elements */
+  .workout-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .workout-table th {
+    background: #0ff;
+    color: #000;
+    padding: 12px;
+    font-size: 1.1rem;
+    text-shadow: 0 0 10px #0ff;
+  }
+  
+  .workout-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #00ff99;
+    font-size: 1rem;
+    color: #0ff;
+  }
+  
+  /* Alternate Row Colors */
+  .workout-table tr:nth-child(even) {
+    background: rgba(0, 255, 255, 0.1);
+  }
+  
+  /* Hover Effects */
+  .workout-table tr:hover {
+    background: #ff00ff;
+    color: white;
+    box-shadow: 0px 0px 10px #ff00ff;
+  }
+  
+  .workout-table td:hover {
+    cursor: pointer;
+  }
+  
+  /* 🚀 Buttons */
+  .submit-button, .back-button {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    color: white;
+    background: linear-gradient(45deg, #ff00ff, #0ff);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0px 0px 15px rgba(255, 0, 255, 0.7);
+  }
+  
+  /* Button Hover */
+  .submit-button:hover, .back-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.9);
+  }
+  
+  /* Click Effect */
+  .submit-button:active, .back-button:active {
+    transform: scale(1);
+  }
+  
+  /* 🎛 Dropdown Styling */
+  select {
+    background: #1a1a1a;
+    border-color: #0ff;
+    color: #0ff;
+  }
+  
+  select:focus {
+    border-color: #ff4500;
+    box-shadow: 0px 0px 10px rgba(255, 69, 0, 0.8);
+  }
+  
+  /* 📱 Responsive Design */
+  @media (max-width: 768px) {
+    .page-container {
+        width: 90%;
+    }
+  }
+  
